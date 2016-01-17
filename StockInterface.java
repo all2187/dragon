@@ -109,11 +109,15 @@ public class StockInterface extends JPanel{
 		
 		
 		//outputArea = new JTextArea();
+		//outputArea.setBackground(Color.RED);
+		//outputArea.setForeground(Color.RED);
+		JPanel outputPanel = new JPanel();
 		outputArea.setEditable(false);
-		outputArea.setText("hello");
-		//outputArea.setOpaque(false);
+		outputArea.setText("");
+		outputArea.setOpaque(false);
+		outputPanel.add(outputArea);
 		
-		inputPanel.add(outputArea);
+		inputPanel.add(outputPanel);
 		
 		addComponentsToMain();
 
