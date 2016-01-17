@@ -110,7 +110,7 @@ public class StockInterface extends JPanel{
 		
 		//outputArea = new JTextArea();
 		outputArea.setEditable(false);
-		outputArea.setText("");
+		outputArea.setText("hello");
 		//outputArea.setOpaque(false);
 		
 		inputPanel.add(outputArea);
